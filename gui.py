@@ -12,11 +12,11 @@ class StoreGUI(QWidget):
         self.setFixedSize(400, 300)
         self.layout = QVBoxLayout()
         self.item_prices = {
-            "Steak ---------------": "$13.99",
-            "Soda ----------------": "$4.99",
-            "Fruit ---------------": "$3.99",
-            "Bread ---------------": "$2.99",
-            "Water ---------------": "$3.50"
+            "Steak": "$13.99",
+            "Soda": "$4.99",
+            "Fruit": "$3.99",
+            "Bread": "$2.99",
+            "Water": "$3.50"
         }
         self.amount_fields = {}
         self.init_ui()
